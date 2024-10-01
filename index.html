@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AU+QLD:wght@100..400&family=Sofia&display=swap" rel="stylesheet">
+    <!-- Animiate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <title>Portfolio</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <!-- navbar -->
+        <nav>
+            <img src="./images/logo.png" alt="">
+            <ul>
+                <li class="list-items"><a class="links" href="#home">Home</a></li>
+                <li class="list-items"><a class="links" href="#about">About</a></li>
+                <li class="list-items"><a class="links" href="#skills">Skills</a></li>
+                <li class="list-items"><a class="links" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- home -->
+        <section id="home" class="home">
+            <div class="section-content">
+                <h1 class="animate__animated animate__pulse" id="username">I'm Alosh <span id="lname">Raam</span></h1>
+                <p id="user-details">This my Offical Lorem ipsum dolor sit amet elit.<br>Doloremque natus in odio tenetur ad, porro </p>
+                <a id="download" href="">Download CV</a>
+            </div>
+            <div class="section-img">
+                <!-- shape -->
+                <img id="shape" class="img-grp" src="./images/shape.png" alt="Shape">
+                <!-- girl image -->
+                <img id="girl" class="img-grp" src="./images/girl.png" alt="Girl">
+            </div>
+        </section>
+        <!-- about -->
+        <section id="about" class="about">
+            <div class="section-head">
+                <h2 class="main-head">About Me</h2>
+                <span class="sub-head">Introduction</span>
+            </div>
+            <div class="about-body">
+                <div class="about-img" >
+                    <img class="img1" src="./images/cameragirl.jpeg " data-aos="fade-up-right" alt="">
+                </div>
+                <div class="about-contents">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi culpa quia sint mollitia iste doloribus excepturi ex quod non, accusamus voluptatibus facere animi recusandae dignissimos optio dolorum maiores doloremque molestias!</p>
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Alosh Raam</span>
+                        </div>
+
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>1234567890</span>
+                        </div>
+
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>aasd@123</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- skills -->
+        <section  id="skills" class="skills">
+            <div class="section-head">
+                <h2 class="main-head">Skills</h2>
+                <span class="sub-head">My Skills</span>
+            </div>
+            <div class="skill-content">
+                <div class="progressbar">
+                    <!-- htnlbar -->
+                    <div class="bars">
+                        <h3 class="bar-head">html</h3>
+                        <h3 class="bar-percent">93%</h3>
+                        <div class="basebar"></div>
+                        <div class="basebar htmlbar" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" ></div>
+                    </div>
+                    <!-- CSS -->
+                    <div class="bars">
+                        <h3 class="bar-head">Css</h3>
+                        <h3 class="bar-percent">97%</h3>
+                        <div class="basebar"></div>
+                        <div class="basebar cssbar" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" ></div>
+                    </div>
+                    <!-- React -->
+                    <div class="bars">
+                        <h3 class="bar-head">React</h3>
+                        <h3 class="bar-percent">89%</h3>
+                        <div class="basebar"></div>
+                        <div class="basebar reactbar" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" ></div>
+                    </div>
+                    <!-- JS -->
+                    <div class="bars">
+                        <h3 class="bar-head">Js</h3>
+                        <h3 class="bar-percent">90%</h3>
+                        <div class="basebar"></div>
+                        <div class="basebar jsbar" data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" ></div>
+                    </div>
+                </div>
+                <div class="skill-image">
+                    <img class="img1" src="./images/skill.jpeg" data-aos="fade-left" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- contact -->
+        <section id="contact" class="contact">
+            <div class="section-head">
+                <h2 class="main-head">Contact</h2>
+                <span class="sub-head">My Contacts</span>
+            </div>
+
+            <div class="icon-collections">
+                <!-- linkedin -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/aloshraam/" target="_blank"><i class="fa-brands fa-linkedin brand"></i></a>
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook brand"></i></a>
+                </div>
+                <!-- whatsapp -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/aloshraam/" target="_blank"><i class="fa-brands fa-github brand"></i></i></a>
+                </div>
+                <!-- instagram -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/aloshraam/" target="_blank"><i class="fa-brands fa-linkedin brand"></i></a>
+                </div>
+                <!-- twitter -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/aloshraam/" target="_blank"><i class="fa-brands fa-linkedin brand"></i></a>
+                </div>
+                <!-- git -->
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright"> &copy; this belongs to alosh and dont copythis &reg; </p>
+        <div class="icon uparrow">
+            <a href="#home"><i class="fa-solid fa-angle-up brand"></i></a>
+        </div>
+    </footer>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
